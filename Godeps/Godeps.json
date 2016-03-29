@@ -1,0 +1,57 @@
+{
+	"ImportPath": "github.com/Luzifer/mondash-opsgenie",
+	"GoVersion": "go1.6",
+	"GodepVersion": "v60",
+	"Deps": [
+		{
+			"ImportPath": "github.com/Luzifer/rconfig",
+			"Comment": "v1.0.3-2-g2677653",
+			"Rev": "26776536e61487fdffbd3ce87f827177a5903f98"
+		},
+		{
+			"ImportPath": "github.com/cihub/seelog",
+			"Comment": "v2.6-3-ga113d9f",
+			"Rev": "a113d9f1aa38f42c23712cb7c04855e9b9f30297"
+		},
+		{
+			"ImportPath": "github.com/franela/goreq",
+			"Rev": "3ddeded65be21dacb5a2e2d0b95af9ff6862a2b5"
+		},
+		{
+			"ImportPath": "github.com/google/go-querystring/query",
+			"Rev": "6bb77fe6f42b85397288d4f6f67ac72f8f400ee7"
+		},
+		{
+			"ImportPath": "github.com/opsgenie/opsgenie-go-sdk/alerts",
+			"Rev": "89e68948bffac4a7d62d1b8fc1ab5ee99d8a3cd8"
+		},
+		{
+			"ImportPath": "github.com/opsgenie/opsgenie-go-sdk/client",
+			"Rev": "89e68948bffac4a7d62d1b8fc1ab5ee99d8a3cd8"
+		},
+		{
+			"ImportPath": "github.com/opsgenie/opsgenie-go-sdk/heartbeat",
+			"Rev": "89e68948bffac4a7d62d1b8fc1ab5ee99d8a3cd8"
+		},
+		{
+			"ImportPath": "github.com/opsgenie/opsgenie-go-sdk/integration",
+			"Rev": "89e68948bffac4a7d62d1b8fc1ab5ee99d8a3cd8"
+		},
+		{
+			"ImportPath": "github.com/opsgenie/opsgenie-go-sdk/logging",
+			"Rev": "89e68948bffac4a7d62d1b8fc1ab5ee99d8a3cd8"
+		},
+		{
+			"ImportPath": "github.com/opsgenie/opsgenie-go-sdk/policy",
+			"Rev": "89e68948bffac4a7d62d1b8fc1ab5ee99d8a3cd8"
+		},
+		{
+			"ImportPath": "github.com/spf13/pflag",
+			"Rev": "b084184666e02084b8ccb9b704bf0d79c466eb1d"
+		},
+		{
+			"ImportPath": "gopkg.in/yaml.v2",
+			"Rev": "53feefa2559fb8dfa8d81baad31be332c97d6c77"
+		}
+	]
+}
