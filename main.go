@@ -59,7 +59,7 @@ func main() {
 	if cliErr != nil {
 		log.Fatalf("Unable to open API connection: %s", cliErr)
 	}
-	v
+
 	boardURL := fmt.Sprintf("%s/%s.json", strings.TrimRight(cfg.MondashURL, "/"), cfg.MondashBoard)
 	res, err := http.Get(boardURL)
 
