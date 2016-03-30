@@ -59,7 +59,7 @@ func main() {
 	if cliErr != nil {
 		log.Fatalf("Unable to open API connection: %s", cliErr)
 	}
-
+	v
 	boardURL := fmt.Sprintf("%s/%s.json", strings.TrimRight(cfg.MondashURL, "/"), cfg.MondashBoard)
 	res, err := http.Get(boardURL)
 
@@ -79,7 +79,7 @@ func main() {
 	for _, metric := range board.Metrics {
 		for _, a := range cfg.AlertStatus {
 			if a == metric.Status {
-				alertTitles = append(alertTitles, metric.Title)
+				alertTitles = append(alertTitles, fmt.Sprintf("%s (%s)", metric.Title, metric.Status))
 			}
 		}
 
